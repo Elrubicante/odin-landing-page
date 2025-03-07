@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     min-height: 100vh;
@@ -15,7 +19,18 @@ body {
     display: flex;
     flex-direction: column;
     align-items: space-evenly;
-    gap: 80px;
+    gap: 35px;
+}
+
+.mainlogo {
+    
+    height: 150px;
+    width: auto;
+    background: transparent;
+    margin-top: 10px;
+    margin-left: -50px;
+    padding: 0;
+    
 }
 
 .header {
@@ -58,6 +73,7 @@ button {
 .h-title {
     font-size: 48px;
     color: #E5E7EB;
+    font-weight: 900    ;
 }
 
 .info {
@@ -91,15 +107,6 @@ a, .text, .header {
     justify-content: center;
     align-items: center;
 }
-
-.mainlogo {
-    
-    height: 150px;
-    width: auto;
-
-    
-}
-
 
 
   .placeholder {
