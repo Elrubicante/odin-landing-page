@@ -21,12 +21,13 @@ body {
     align-items: space-evenly;
     gap: 25px;
     padding-bottom: 30px;
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
 }
 
 .mainlogo {
     
-    height: 120px;
+    height: 110px;
     width: auto;
     margin-top: 10px;
     padding: 0;
@@ -36,7 +37,6 @@ body {
 .header {
 display: flex;
 justify-content: space-evenly;
-
 align-items: flex-start;
 
 }
@@ -61,7 +61,7 @@ align-items: flex-start;
     gap: 15px;
     flex-direction: column;
     flex-grow: 0;
-    align-items: flex-start;
+    align-self: flex-start;
 }
 
 button {
@@ -78,6 +78,7 @@ button {
     background: royalblue;
     border: 1px solid royalblue;    
     color: white;
+    align-self: flex-start;
     
   }
 
