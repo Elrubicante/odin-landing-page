@@ -36,14 +36,15 @@ body {
 .header {
 display: flex;
 justify-content: space-evenly;
-gap: 250px;
-margin-right: -27rem;
+
+align-items: flex-start;
+
 }
 
 .hero-section {
     display: flex;
     justify-content: space-evenly;
-    margin-right: -45px;
+   align-items: center;
     
 }
 
@@ -130,6 +131,8 @@ a, .text, .header {
     align-items: center;
 
   }
+
+
 
 .infobox {
     display: flex;
