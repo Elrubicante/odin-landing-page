@@ -19,17 +19,16 @@ body {
     display: flex;
     flex-direction: column;
     align-items: space-evenly;
-    gap: 35px;
+    gap: 25px;
     padding-bottom: 30px;
+    padding-top: 20px;
 }
 
 .mainlogo {
     
     height: 120px;
     width: auto;
-    background: transparent;
     margin-top: 10px;
-    margin-left: -50px;
     padding: 0;
     
 }
@@ -37,12 +36,15 @@ body {
 .header {
 display: flex;
 justify-content: space-evenly;
-gap: 100px;
+gap: 250px;
+margin-right: -27rem;
 }
 
 .hero-section {
     display: flex;
     justify-content: space-evenly;
+    margin-right: -45px;
+    
 }
 
 .h-title {
@@ -55,7 +57,7 @@ gap: 100px;
     display: flex;
     flex-wrap: wrap;
     max-width: 450px;
-    gap: 10px;
+    gap: 15px;
     flex-direction: column;
     flex-grow: 0;
     align-items: flex-start;
@@ -73,14 +75,18 @@ button {
   
 .signup {
     background: royalblue;
-    border: 1px solid royalblue;
+    border: 1px solid royalblue;    
     color: white;
     
   }
 
   .placeholder {
-    width: 300px;
-    height: 200px;
+    width: 540px;
+    height: auto;
+    margin-left: -40px;
+    margin-top: -35px;
+    border-radius: 10px;
+    border: 1px rgb(145, 217, 250) solid;
   }
 
 
@@ -101,7 +107,7 @@ li {
 
 ul {
     display: flex;
-    gap: 12px;
+    gap: 25px;
 }
 
 a {
