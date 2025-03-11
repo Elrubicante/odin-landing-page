@@ -24,7 +24,7 @@ body {
 
 .hero  {
     background-color: rgb(53, 152, 218);
-    padding-bottom: 50px;
+    padding-bottom: 35px;
     
 }
 
@@ -32,9 +32,12 @@ body {
     display: flex;
     flex-direction: column;
    padding: 20px 10px;
-   gap: 20px;
+   gap: 10px;
 
+}
 
+.hero a:hover {
+    color: lightblue;
 }
 
 .header {
@@ -45,7 +48,7 @@ body {
 
 .mainlogo {
     
-    height: 120px;
+    height: 130px;
     width: auto;
     }
 
@@ -123,43 +126,63 @@ a, .text, .header {
 
 
 .info {
-    height: 480px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-    
+    height: 490px;
+   text-align: center;
 }
 
+.info .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    padding-bottom: 40px;
+    gap: 60px;
+
+  }
+
+
+  .infoimg {
+    width: auto;
+    height: 110px;
+    align-self: center;
+  }
+  .boxinfo {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
 
 .infotitle {
     font-size: 36px;
     color: #05417d ;
     font-weight: 900;
+    align-self: center;
 }
 
-.infocontainer {
-    display: flex;
-    align-items: center;
-
-  }
 
 
 
 .infobox {
+   
+    max-width: 240px;
     display: flex;
-    width: 240px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 10px;
+    flex-direction: column;
+    gap: 8px;
 
 }
 
-.infoimage {
-    width: 100px;
-    height: 100px;
-    margin: auto;
+.infobox .infoh2 {
+    color: #05417d ;
+    font-weight: 900;
+    font-size: 22px;
 }
+
+.infobox .text {
+    color: rgb(83, 83, 83);
+ 
+}
+
 
 
 
