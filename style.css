@@ -16,7 +16,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     justify-content: space-between;
     margin: 0;
     
@@ -191,6 +191,35 @@ a, .text, .header {
     background-color: #E5E7EB;
 }
 
+.testimonials .container {
+    height: 100%;
+  
+}
+
+.container .review {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 100px;
+
+}
+
+.comment {
+    font: 50 italic 30px/38px 'Roboto' ;
+    color: #5a626e;
+    align-self: center;
+    text-align: justify;
+}
+
+
+
+.client {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+}
 .CTA {
     height: 450px;
 }
