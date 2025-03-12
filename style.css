@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
     box-sizing: border-box;
@@ -104,12 +105,17 @@ button {
     }
   
 .signup {
-    background: royalblue;
-    border: 1px solid royalblue;    
+    background: #3882F6;
+    border: 1px solid #3882F6;    
     color: white;
     align-self: flex-start;
+    font-weight: bold;
     
   }
+
+  .block1 .signup {
+    border: 1px solid #05417d;
+}
 
   .placeholder {
     width: 500px;
@@ -207,12 +213,15 @@ a, .text, .header {
 }
 
 .comment {
-    font: 50 italic 30px/38px 'Roboto' ;
-    color: #5a626e;
+    font: 300 italic 32px/38px 'Open Sans' ;
+    color: #1F2937;
     align-self: center;
     text-align: justify;
 }
 
+.review p {
+    margin-bottom: 12px;
+}
 
 
 .client {
@@ -220,15 +229,55 @@ a, .text, .header {
     font-size: 24px;
     font-weight: 900;
 }
+
 .CTA {
-    height: 450px;
+    height: 350px;
+}
+
+.CTA .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    height: 46%;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 14px;
+    gap: 18px;
+}
+
+.box-copy {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-copy .h3 {
+font-size: 24px;
+font-weight: 900    ;
+color: #E5E7EB;
+}
+.box-copy .text {
+    font-size: 18px;
+}
+.cta-box .signup {
+    border: 2px solid #E5E7EB;
+    align-self: center;
 }
 
 .footer {
     background-color: rgb(53, 152, 218);  ;
     color: #E5E7EB;
+   font: 600 italic 18px "Open Sans";
     display: flex;
-    height: 72px;
+    height: 95px;
+    gap: 8px;
     justify-content: center;
     align-items: center;
 }
