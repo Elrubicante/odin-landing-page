@@ -250,7 +250,7 @@ a, .text, .header {
     align-items: center;
     justify-content: space-around;
     padding: 14px;
-    gap: 18px;
+    gap: 38px;
 }
 
 .box-copy {
